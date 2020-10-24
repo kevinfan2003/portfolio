@@ -26,34 +26,23 @@ class Contact extends React.Component {
                     <ul>
                       <li>
                         <a
-                          href='www.google.com'
+                          href='http://www.instagram.com/kevinfanphotography'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <span className='ico-circle'>
-                            <i className='ion-social-facebook'></i>
+                            <i className='ion-social-instagram'></i>
                           </span>
                         </a>
                       </li>
                       <li>
                         <a
-                          href='www.google.com'
+                          href='https://github.com/kevinfan2003'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <span className='ico-circle'>
                             <i className='ion-social-github'></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href='www.google.com'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <span className='ico-circle'>
-                            <i className='ion-social-linkedin'></i>
                           </span>
                         </a>
                       </li>

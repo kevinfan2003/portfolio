@@ -28,12 +28,12 @@ export default [
   },
   {
     src: TravelLady,
-    title: "TravelLady",
-    description: "TravelLady",
+    title: "Travel Lady",
+    description: "Travel Lady",
   },
   {
     src: Waterfight,
-    title: "Waterfight",
-    description: "Waterfight",
+    title: "Water fight",
+    description: "Water fight",
   },
 ];

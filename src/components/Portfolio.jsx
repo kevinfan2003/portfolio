@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-import ImageGallery from "react-image-gallery";
-import Gallery from "react-grid-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import animals from "../img/animals";
 import photoJournalisms from "../img/photoJournalisms";
 import abstracts from "../img/abstracts";
 import farAways from "../img/farAways";
 import { Button } from "@material-ui/core";
-import { shuffle } from "lodash";
 import LazyLoad from "react-lazyload";
+import Coverflow from "react-coverflow";
+import { StyleRoot } from "radium";
 
 const Portfolio = () => {
   const [images, setImages] = useState([
@@ -63,7 +62,6 @@ const Portfolio = () => {
             style={{
               marginBottom: "20px",
               marginLeft: "-20px",
-              // margin: "auto",
             }}
           >
             {buttons.map((button, i) => (
@@ -92,15 +90,38 @@ const Portfolio = () => {
         }}
       >
         <LazyLoad>
-          <ImageGallery
-            items={shuffle(
-              images.map((image) => ({
-                ...image,
-                original: image.src,
-                thumbnail: image.src,
-              }))
-            )}
-          />
+          <StyleRoot>
+            <Coverflow
+              displayQuantityOfSide={2}
+              navigation={false}
+              enableHeading
+              height='800'
+              enableScroll={true}
+              clickable={true}
+              active={Math.floor(images.length / 2)}
+              children={images.map((image, i) => (
+                <img
+                  key={i}
+                  src={image.src}
+                  alt={image.title}
+                  style={{
+                    display: "block",
+                    width: "100%",
+                  }}
+                  media={{
+                    "@media (max-width: 900px)": {
+                      width: "600px",
+                      height: "300px",
+                    },
+                    "@media (min-width: 900px)": {
+                      width: "960px",
+                      height: "600px",
+                    },
+                  }}
+                />
+              ))}
+            />
+          </StyleRoot>
         </LazyLoad>
       </div>
     </section>
