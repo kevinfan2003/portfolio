@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0019244b.chunk.css",
-    "main.js": "/portfolio/static/js/main.f7447687.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f7447687.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a715759e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a715759e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.3e58d468.chunk.css": "/portfolio/static/css/2.3e58d468.chunk.css",
-    "static/js/2.dc0d2f42.chunk.js": "/portfolio/static/js/2.dc0d2f42.chunk.js",
-    "static/js/2.dc0d2f42.chunk.js.map": "/portfolio/static/js/2.dc0d2f42.chunk.js.map",
+    "static/js/2.fdda34b5.chunk.js": "/portfolio/static/js/2.fdda34b5.chunk.js",
+    "static/js/2.fdda34b5.chunk.js.map": "/portfolio/static/js/2.fdda34b5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.28fcf6a669c3b0770fcb6c42d8978244.js": "/portfolio/precache-manifest.28fcf6a669c3b0770fcb6c42d8978244.js",
+    "precache-manifest.318fec0d57c454268973157eb5f257e8.js": "/portfolio/precache-manifest.318fec0d57c454268973157eb5f257e8.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.3e58d468.chunk.css.map": "/portfolio/static/css/2.3e58d468.chunk.css.map",
     "static/css/main.0019244b.chunk.css.map": "/portfolio/static/css/main.0019244b.chunk.css.map",
-    "static/js/2.dc0d2f42.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dc0d2f42.chunk.js.LICENSE.txt",
+    "static/js/2.fdda34b5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fdda34b5.chunk.js.LICENSE.txt",
     "static/media/Ancient.jpg": "/portfolio/static/media/Ancient.7390ab8e.jpg",
     "static/media/Childhood.jpeg": "/portfolio/static/media/Childhood.502d6a4c.jpeg",
     "static/media/FishEagle.jpg": "/portfolio/static/media/FishEagle.59a0d8d9.jpg",
@@ -38,13 +38,14 @@
     "static/media/YellowBillinFlight.jpeg": "/portfolio/static/media/YellowBillinFlight.6db6adaf.jpeg",
     "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/ionicons.css": "/portfolio/static/media/ionicons.621bd386.svg",
+    "static/media/myself.jpeg": "/portfolio/static/media/myself.2a993b69.jpeg",
     "static/media/theInvertedGlass.jpeg": "/portfolio/static/media/theInvertedGlass.a8f445ab.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.3e58d468.chunk.css",
-    "static/js/2.dc0d2f42.chunk.js",
+    "static/js/2.fdda34b5.chunk.js",
     "static/css/main.0019244b.chunk.css",
-    "static/js/main.f7447687.chunk.js"
+    "static/js/main.a715759e.chunk.js"
   ]
 }
